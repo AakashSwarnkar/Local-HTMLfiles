@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form action="cotectme.php" method="post">
+            <label for="first">First Name:</label><br>
+            <input type="text" id="first" placeholder="Your Name .." required="true"><br>
+
+            <label for="last">Last Name:</label><br>
+            <input type="text" id="last" placeholder="Your Last Name .." required="true"><br>
+
+            <label for="mail">Mail ID:</label><br>
+            <input type="text" id="mail" placeholder="Email Address .." required="true"><br>
+
+            <label for="country">Country</label><br>
+            <select name="country" id="country">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Canada">Canada</option>
+                <option value="Other">Other</option>
+            </select><br>    
+
+            <label for="subject">Subject</label><br>
+            <textarea name="subject" id="subject" placeholder ="Write Something.." rows="4" cols="21">Write Something..
+            </textarea><br>
+
+            <input type="submit" value="Submit">
+            
+
+        </form>
+    </div>
+</body>
+</html>
